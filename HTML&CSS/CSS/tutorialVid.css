@@ -1,0 +1,52 @@
+/*anything put in * will be true for EVERYTHING*/
+*
+{
+
+}
+
+/*padding = spaces inside border, margin = spaces outside border*/
+/*simplified setting: margin: 20px (does for all), margin: 20px 0px (top, bottom = 20---left right = 0) Order is: top, right, bottom, left; OR Never Eat Sour Watermelons*/
+body
+{
+    background-color:aqua;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 20px;
+    font-weight:normal;
+
+    /*Same as above
+    font: normal 20px Arial, Helvetica, sans-serif;
+    */
+
+    /*em is unit used, could use px (pixels)*/
+    line-height: 1.6em;
+}
+
+.container
+{
+    /*px makes it not respond to resizing, but by using a % it will be responsive
+    In general, use % when dealing with containers*/
+    width:80%;
+    margin:auto;
+}
+
+.box-1
+{
+    background-color:gray;
+    color:white;
+
+    border-right:5px red solid;
+    border-left:5px blue solid;
+    border-top:5px yellow solid;
+    border-bottom:5px green solid;
+}
+
+.box-1 h1
+{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
