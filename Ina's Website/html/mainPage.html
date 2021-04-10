@@ -1,17 +1,26 @@
 <script type="text/javascript" src="jquery 3.3.1.js"></script>
 <script src="../js/stuff.js"></script>
-<link rel="stylesheet" type="text/css" href="../CSS/moreStuff.css">
+<link rel="stylesheet" type="text/css" href="../CSS/mainPage.css">
 
 <html>
     <head>
-        <h1>
+        <h1 class="h1">
             Hello! My Name is Ina!
         </h1>
-            <img src="../images/InaProfile.jpg" alt="Something went wrong..." width=400 height=600>
+
+        <ul class="infoList">
+            <img src="../images/InaProfile.jpg" alt="Something went wrong..." id="profile">
+            <li><a href="info.html">Get to Know Me!</a></li>
+            <li><a href="growing.html">See Me Grow Up!</a></li>
+            <li><a href="sleeping.html">Sleepy Time</a></li>
+            <li><a href="friends.html">My Doggy Friends</a></li>
+            
+        </ul>
+            
     </head>
 
     <body>
-        <p>
+        <p class="textPara">
             I'm a very good girl. That is unless I find a nice hole to dig...
             <br>
             <video controls class="video" onclick="playDigging()"><source src="../videos/digging.mp4" type="video/mp4"></video>

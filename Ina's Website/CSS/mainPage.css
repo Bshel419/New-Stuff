@@ -1,0 +1,48 @@
+body
+{
+    background-color:rgb(219, 159, 81);
+    color:white;
+    text-align:center;
+}
+
+#profile
+{
+    display:block;
+    width:400px;
+    height:600px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 60%;
+}
+
+.textpara
+{
+    font-size:1.5em;
+}
+
+.video
+{
+    display:block;
+    width:25%;
+    height:20%;
+    margin:auto;
+
+}
+
+.h1
+{
+    text-align:center;
+}
+
+.infoList   
+{
+    list-style-position:inside;
+    text-align:left;
+}
+
+.infoList li
+{
+    list-style-image: url("../images/derp.jpg");
+    font-size:1.5em;
+    text-align:center;
+}

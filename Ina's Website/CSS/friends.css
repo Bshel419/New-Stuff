@@ -1,0 +1,47 @@
+body
+{
+    background-color:rgb(219, 159, 81);
+    color:white;
+    text-align:center;
+}
+
+.container
+{
+    position:relative;
+}
+
+#gator
+{
+    width:200px;
+    height:250px;
+    border-radius:8px;
+    border: 7px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#bella
+{
+    width:300px;
+    height:350px;
+    border-radius:8px;
+    border: 7px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.topLeft
+{
+    position: absolute;
+    top: 75px;
+    left: 890px;
+    font-size: 18px;
+}
+
+.topRight
+{
+    position: absolute;
+    top: 70px;
+    right: 890px;
+    font-size: 18px;
+}
