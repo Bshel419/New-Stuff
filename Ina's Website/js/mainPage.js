@@ -1,4 +1,4 @@
-playDigging()
+function playDigging()
 {
     var video = document.getElementById('digging');
     video.play();
@@ -9,7 +9,7 @@ playDigging()
     });
 }
 
-playCollar()
+function playCollar()
 {
     var video = document.getElementById('collarVid');
     video.play();
@@ -20,7 +20,7 @@ playCollar()
     });
 }
 
-playFrisbee()
+function playFrisbee()
 {
     var video = document.getElementById('frisbeeVid');
     video.play();
@@ -31,7 +31,7 @@ playFrisbee()
     });
 }
 
-playNap()
+function playNap()
 {
     var video = document.getElementById('napVid');
     video.play();
@@ -42,7 +42,7 @@ playNap()
     });
 }
 
-playWater()
+function playWater()
 {
     var video = document.getElementById('waterVid');
     video.play();
@@ -53,7 +53,7 @@ playWater()
     });
 }
 
-playWobbler()
+function playWobbler()
 {
     var video = document.getElementById('wobbler');
     video.play();

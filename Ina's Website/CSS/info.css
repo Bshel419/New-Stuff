@@ -1,0 +1,71 @@
+body
+{
+    background-color:rgb(219, 159, 81);
+    color:white;
+    text-align:center;
+}
+
+.container
+{
+    position:relative;
+}
+
+.topLeft
+{
+    position: absolute;
+    top: 75px;
+    left: 890px;
+    font-size: 18px;
+}
+
+.topRight
+{
+    position: absolute;
+    top: 70px;
+    right: 890px;
+    font-size: 18px;
+}
+
+#parents
+{
+    height:600px;
+    width:350px;
+    position:absolute;
+    border-radius:60%;
+    filter:blur(2px) grayscale(100%);
+    left:500px;
+}
+
+#para
+{
+    font-size:1.5em;
+    position:absolute;
+    top: 200px;
+    right: 100px;
+}
+
+#para2
+{
+    font-size:1.5em;
+    position:absolute;
+    top:700px;
+    right:150px;
+}
+
+#derpPosition
+{
+    position:absolute;
+    left:500px;
+    top:700px;
+}
+
+#derpButt
+{
+    background:none;
+    border:none;
+    padding:0;
+    color:#069;
+    text-decoration:underline;
+    cursor:pointer;
+    font-size:1em;
+}
